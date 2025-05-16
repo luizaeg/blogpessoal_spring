@@ -218,5 +218,5 @@ Este repositório é parte de um projeto educacional, mas contribuições são s
  
 <br />
  
-Desenvolvido por [**Rafael**](https://github.com/luizaeg)
+Desenvolvido por [**Luiza**](https://github.com/luizaeg)
 Para dúvidas, sugestões ou colaborações, entre em contato via GitHub ou abra uma issue!
