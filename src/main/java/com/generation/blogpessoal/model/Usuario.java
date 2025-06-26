@@ -2,7 +2,8 @@ package com.generation.blogpessoal.model;
 
 import java.util.List;
 
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 
 import io.swagger.v3.oas.annotations.media.Schema;
 import jakarta.persistence.CascadeType;
@@ -41,7 +42,7 @@ public class Usuario {
 	private String foto;
 
 	@OneToMany(fetch = FetchType.LAZY, mappedBy = "usuario", cascade = CascadeType.REMOVE)
-	@JsonIgnoreProperties("usuario")
+	@JsonIgnore
 	private List<Postagem> postagem;
 
 	/* Insira os Getters and Setters */
